@@ -10,3 +10,12 @@
 #      The dog's age in dog years is xx
 
 # Hint:  Use the int() function to convert the string returned from input() into an integer
+
+dog_age = input('Please enter a dog''s age in human years: ').lower()
+num = int(dog_age)
+num2 = (num - 2) * 7 + 20 
+num3= (num -2) + 20
+if num >= 2:
+  print(f'The dogs age in dog years is {num2}')
+else:
+  print(f'The dogs in dog years is {num3}')
